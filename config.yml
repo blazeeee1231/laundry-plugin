@@ -1,0 +1,25 @@
+# Czas prania w sekundach (od zamknięcia skrzyni odbioru)
+wash-seconds: 3
+
+# Kolory w formacie HEX
+colors:
+  source: "474F52"   # ciemnoszary (kolor szarego barwnika)
+  target: "F9FFFE"   # biały (kolor białego barwnika)
+  tolerance: 20      # dopuszczalna różnica na każdym kanale RGB
+
+messages:
+  prefix: "&8[&bPralnia&8] "
+  title-source: "&8Ubrania więzienne"
+  title-output: "&8Pralnia - odbiór"
+  started: "&7Pranie rozpoczęte, poczekaj {seconds} s..."
+  washing: "&eUbrania są jeszcze w praniu ({s} s)."
+  ready: "&aTwoje ubrania są gotowe! Możesz je już wyjąć ze skrzyni."
+  ready-reminder: "&aMasz gotowe ubrania do odebrania w pralni."
+  only-clean: "&cMożesz włożyć tylko BIAŁE części skórzanej zbroi."
+  inventory-full: "&cMasz pełny ekwipunek."
+  no-break: "&cNie możesz zniszczyć tej skrzyni."
+  no-permission: "&cBrak uprawnień."
+  look-at-chest: "&cSpójrz na skrzynię (max 6 bloków)."
+  source-set: "&aUstawiono skrzynię ze zbroją."
+  output-set: "&aUstawiono skrzynię odbioru."
+  reloaded: "&aKonfiguracja przeładowana."

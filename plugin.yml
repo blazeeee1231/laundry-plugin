@@ -1,0 +1,14 @@
+name: PrisonLaundry
+version: 1.0.0
+main: pl.prison.laundry.LaundryPlugin
+api-version: '1.20'
+description: Praca w więzieniu - pralnia (farbowanie ubrań więziennych)
+commands:
+  pralnia:
+    description: Administracja pralnią
+    usage: /pralnia <setsource|setoutput|reload>
+    permission: pralnia.admin
+permissions:
+  pralnia.admin:
+    description: Ustawianie skrzyń pralni i przeładowanie konfiguracji
+    default: op
